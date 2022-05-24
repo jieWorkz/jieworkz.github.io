@@ -281,7 +281,7 @@ form#signupform img.za-captcha{
 
 .welcomeMessage::after{
     visibility: visible;
-    content: "Sign Up for All UXAPPS Services";
+    content: "Customer Trial Request Sign Up";
     font: 20px "Open Sans",sans-serif !important;
     color: #666;
     display: block;
