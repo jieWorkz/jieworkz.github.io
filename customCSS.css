@@ -295,7 +295,7 @@ form#signupform img.za-captcha{
 
 .welcomeMessage::after{
     visibility: visible;
-    content: "TEST";
+    content: "Sign Up for ALL UXAPPS Services";
     display: block;
     margin-top: -20px;
 }
