@@ -146,7 +146,7 @@ form#signupform img.za-captcha{
 .mp0 {
     margin:0;
     padding:0;
-    background-image: url("https://images.wallpapersden.com/image/download/digital-city-road_a2lnbGqUmZqaraWkpJRnamtlrWZlbWU.jpg");
+    background: url("https://images.wallpapersden.com/image/download/digital-city-road_a2lnbGqUmZqaraWkpJRnamtlrWZlbWU.jpg");
 }
 .bold {font: bold 15px "Open Sans",sans-serif !important}
 .fontR{font:500 13px "Open Sans",sans-serif !important;color: rgb(102, 102, 102)}.ib{display:inline}.p100{padding:10px 0}.f12{font-size:12px}
