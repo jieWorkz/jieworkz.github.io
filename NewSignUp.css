@@ -1,0 +1,616 @@
+body {
+    background-image: url("https://images.wallpapersden.com/image/download/digital-city-road_a2lnbGqUmZqaraWkpJRnamtlrWZlbWU.jpg");
+}
+table{
+    width:100%;
+    margin: auto;
+}
+.logo-home {
+    margin: 0% auto 2% auto;
+    width: 340px;
+}
+.signup-box {
+    background: #FFF;
+    box-shadow: 0 0 5px #CCCCCC;
+    border: 1px solid #DBD3D0;
+    width: 550px;
+    margin: 0% auto;
+}
+
+form#signupform .sgnemail{
+    border: 1px solid #ccc !important;
+    border-radius: 0px !important;
+    font: 14px 'Open Sans', serif !important;color:#666 !important;
+    height: 27px !important;
+    padding: 5px 49px 5px 15px !important ;/*   5px 22px 5px 15px  !important 13px 10px*/
+    width: 415px !important;/* 442px - 333px*/
+    background-color:#FFF !important;
+}
+form#signupform .capchaInput{padding-right: 22px !important;width: 246px !important}
+.form-input:focus {border-color: #3C948B !important;outline: 0 none;-webkit-transition: all 0.2s linear;-moz-transition: all 0.2s linear;-o-transition: all 0.2s linear;transition: all 0.2s linear;}
+.w100p{width:100% !important}
+form#signupform .lefttext{
+    margin-top: 11px;
+    padding-right: 20px;
+    text-align: right;
+    width: 150px;
+}
+form#signupform .submit-btn{
+    background: none repeat scroll 0 0 #53AE65;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    height: 45px;width:480px;
+    letter-spacing: 1px;
+    /*padding: 12px 45px;*/
+    padding: 0-x 45px;
+}
+
+form#signupform .sign_agree {
+    color: #666666;
+    letter-spacing: -0.1px;
+    line-height: 12px;
+   /* margin: 0 0 10px;*/
+}
+form#signupform .field-valid input, form#signupform .field-error input{
+    position:static;
+}
+form#signupform .za-captcha-container{
+    /*text-align:center;
+    width:90%;400px
+    margin:0 auto;*/
+    margin:inherit;
+    height:40px;/*165px*/
+}
+form#signupform .za-captcha-container > div,.disBlock{
+    display: block;
+}
+/*form#signupform .za-captcha-container > div:first-child{
+    margin-left:10px;
+}*/
+form#signupform .za-newsletter-container{
+    padding:5px 0;
+}
+form#signupform img.za-captcha{
+    margin: 0px !important;
+    vertical-align: bottom;
+}
+/*#signupform .za-captcha-container .sgnemail{
+    margin-bottom:10px;
+    width:190px !important;
+    height:20px !important;
+}*/
+#signupform .field-valid input{
+     background-position: 410px -101px !important;/*390*/
+}
+#signupform .field-error input {
+    background-position: 410px -142px !important;/*390*/
+}
+.password-strength,#signupform .field-error .password-strength, #signupform .field-valid .password-strength{
+    top:14px !important;
+    left:390px !important;
+}
+.login-box{
+    /* margin:70px auto 0; */
+    margin:auto;
+    background-color:#f3f3f3;
+    min-width:576px;
+    max-width:576px;
+    padding:25px;
+    border:2px solid #fff;
+    opacity:0.88;
+    box-shadow:0 6px 3px rgba(0, 0, 0, 0.13);
+}
+.mTop {
+    margin-top:0;
+    font:24px "Open Sans",sans-serif !important;
+    background-color: #F3F3F3;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 6px 3px rgba(0, 0, 0, 0.13);
+    padding:20px 10px;
+    visibility: hidden;
+}
+
+#signupform > div {
+    margin-top:5px;
+    text-align:center;
+}
+.poRel,.rel {
+    position: relative;   
+}
+.poAbs {
+    display: inline;
+    position:absolute;
+}
+.box-login .button {padding: 0;text-align: center;width: 100%;}.fl{float:left}
+.button.large {height: 40px !important;width: 84.2%%}
+.za-captcha {border: 1px solid #D6D6D6;height:37px !important;
+    margin-top: 10px;
+    width: 140px !important}/*180*/
+.button {background-color: #F04B2F !important;border: 0;border-radius: 2px;color: #FFFFFF;cursor: pointer;display: inline-block;height: 40px;line-height: 41px;padding: 0 15px;transition: opacity 0.2s linear 0s}
+.mp0 {
+    margin:0;
+    padding:0;
+    background: url("https://images.wallpapersden.com/image/download/digital-city-road_a2lnbGqUmZqaraWkpJRnamtlrWZlbWU.jpg");
+}
+.bold {font: bold 15px "Open Sans",sans-serif !important}
+.fontR{font:500 13px "Open Sans",sans-serif !important;color: rgb(102, 102, 102)}.ib{display:inline}.p100{padding:10px 0}.f12{font-size:12px}
+.newletterSignup {font: 500 13px "Open Sans",sans-serif !important; margin: 0px auto; width: 100%; text-align: left;color:#666 !important}
+.za-newsletter{margin:0 5px 0 0 !important}
+.bgNone{background-color:inherit !important}
+.backGNone{background:none}
+.abs{position:absolute}.pB0{ padding-bottom: 0 !important}.w81per{width: 81.3% !important;}
+.pwdparent,.fr {
+    float: right;
+}
+.india{border-bottom:1px solid #e8e8e8; padding-bottom:4px}
+
+#pwdstrength {
+    float: right;
+    height: 16px;
+    margin-right: -16px;
+    margin-top: 2px;
+    width: 70px;
+}.pwdtext {
+    clear: both;
+    float: left;
+    font-weight: 400;
+    margin-left: -47px;
+    margin-top: -17px;
+    text-transform: capitalize;
+}
+.news-signup, .show-password, .show-password label {
+    -moz-user-select: none;
+    cursor: pointer;
+    outline-style: none;
+}
+.captchaTxtBox {
+	margin-right: 13px;width: 286px !important;margin-left: 0px !important;
+}
+.captchaBox {background-color:#fff;text-align:center;
+}
+.drp-bx{
+	border: 1px solid #D6D6D6;
+	width:180px;
+	padding:10px 5px;
+	font: 14px 'Open Sans',serif !important;
+	color:#999 !important;
+	padding: 12px 5px 3px !important
+}
+.bb38 {
+	border-bottom: 1px solid #e8e8e8;
+}
+#show-password{text-align:right;padding-right:/*37px*/10px}
+#show-password-label{padding-top:2px}
+.icon-medium {
+    background: url("../../images/store/signup-icons.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 18px;
+    margin: 5px 5px 0 10px;
+    width: 18px;
+}
+.show-password {
+    color: #AEAEAE;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 2.2em;
+}
+.uncheckedpass,.checkedpass {
+    background-position: -278px -5px;
+    margin: 7px 0 0 5px;
+}
+.checkedpass {
+    background-position: -258px -5px;
+}
+.pwdStg{width:336px !important;padding-right:130px !important;letter-spacing:0.5px !important}
+
+/*Subhash*/
+
+.select-style {
+    border: 1px solid #D6D6D6;
+    width: 180px;
+    overflow: hidden;
+    background: #fff url("../../images/store/select-arrow.png") no-repeat 90% 11px;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+#country option{padding:3px 0 3px 9px; font-size:12px}
+
+#password {width:336px !important;padding-right:130px !important;letter-spacing:0.5px !important}
+.signupArea{margin: 0px auto; position: relative; display: block; height: 36px; width: 120px;}
+.btnSignup{display: inline-table; position: absolute; top: 9px; left: 3px;}
+.diableBtnSignup{background-color: #999 !important;color: #DDD; pointer-events:none;}
+.successLoading{background:url("../../images/moreloading1.gif") no-repeat scroll 0 0 / 90% 90% rgba(0, 0, 0, 0);height:32px;width:32px;display: none;opacity:0.9;position: absolute;right: 14px;vertical-align:middle;top:2px}
+.continueLoading{background:url("../../images/moreloading1.gif") no-repeat scroll 0 0 / 90% 90% rgba(0, 0, 0, 0);height:32px;width:32px;display:none;opacity:0.9}
+/**/
+.signupTable{width:80%;margin:0 auto}
+.signupTable td{padding:10px}
+.field-msg{margin:0 auto}
+/*New Recruit Type*/
+
+.recur-type {list-style:none;text-align:left;line-height:25px;margin:0;padding:0;color:#666}
+.recur-type li{display:inline-block}
+.recur-type li:first-child{margin-right:10px}
+.recur-type input[type="radio"]{margin-right:5px;width:15px !important}
+
+.continueBtn {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #84c63c 0%, #489615 100%) repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 6px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.1), 0 -3px rgba(0, 0, 0, 0.1) inset;
+    color: white;
+    cursor: pointer;
+    font: bold 16px Arial,Helvetica,sans-serif;
+    outline: 0 none;
+    overflow: visible;
+    padding: 8px 20px;
+    text-shadow: 0 1px 2px #588020;
+}
+
+.zs-mb20 {
+    margin-bottom: 20px;
+}
+.invalidUrl{
+	color:red;
+	font-size:20px;
+	font-weight:bold;
+}
+.welcomeMessage{
+	position: relative;
+    top: -10px;
+    font: 13px "Open Sans",sans-serif !important;
+    color: #666;
+    visibility: hidden;
+}
+
+.welcomeMessage::after{
+    visibility: visible;
+    content: "Sign Up for All UXAPPS Services";
+    font: 20px "Open Sans",sans-serif !important;
+    color: #666;
+    display: block;
+    margin-top: -20px;
+}
+
+
+/******* TOS check box style in signup page *******/
+
+.za-tos-container{
+    margin-bottom: 15px !important;
+    margin-top: 0px !important;
+	position:relative;
+}
+.za-tos-container label {
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    margin-top: 5px;
+}
+
+#signup-termservice,#signup-newsletter {
+    border: 1px solid #333;
+    display: inline-block;
+    height: 8px;
+    margin-right: 4px;
+    width: 8px;
+}
+
+#tos{
+    height: 1px;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 1px;
+}
+
+#signup-termservice.checked,#signup-newsletter.checked{
+position:relative;
+}
+
+#signup-termservice.checked::after,#signup-newsletter.checked::after {
+    background: #333 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    left: -1px;
+    position: absolute;
+    top: 4px;
+    transform: rotate(45deg);
+    width: 5px;
+}
+
+#signup-termservice.checked::before,#signup-newsletter.checked::before {
+    background: #333 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    left: 1px;
+    position: absolute;
+    top: 1px;
+    transform: rotate(-45deg);
+    width: 15px;
+}
+.za-tos-container .field-msg {
+    margin-top: 6px;
+}
+
+/****** TOS - Ends *******/
+.signUp-tdAlignLeft{text-align:left;}
+#newsletter {
+    height: 1px;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 1px;
+}
+.sign_agree {
+    color: #000;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+}
+form#signupform .za-country-container.za-country-container-arrow::after {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #666;
+    position: absolute;
+    right: 12px;
+    top: 20px;
+    content: "";
+    display: block;
+}
+form .za-country-container select#country {
+    position: relative;
+    display: block;
+    color: #000;
+    transition: .7s ease;
+    border: 1px solid #ccc !important;
+    z-index: 9;
+    font-size: 14px;
+    background-color: white;
+    padding: 7px 40px 7px 15px !important;
+    width: 424px;
+    outline: 0;
+    appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border-radius:0;
+	line-height:23px;
+}
+.za-country-container-arrow{
+	position:relative;
+}
+select#country {
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+select#country::focus {
+  background-image:
+    linear-gradient(45deg, green 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, green 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  border-color: green;
+  outline: 0;
+}
+
+form#signupform .za-state-container.za-state-container-arrow::after {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #666;
+    position: absolute;
+    right: 12px;
+    top: 20px;
+    content: "";
+    display: block;
+}
+form .za-state-container select#state {
+    position: relative;
+    display: block;
+    color: #000;
+    transition: .7s ease;
+    border: 1px solid #ccc !important;
+    z-index: 9;
+    font-size: 14px;
+    background-color: white;
+    padding: 7px 40px 7px 15px !important;
+    width: 424px;
+    outline: 0;
+    appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border-radius:0;
+	line-height:23px;
+}
+.za-state-container-arrow{
+	position:relative;
+}
+select#state {
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+select#state::focus {
+  background-image:
+    linear-gradient(45deg, green 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, green 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  border-color: green;
+  outline: 0;
+}
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}/*
+form .za-country-container .za-country-container-arrow::after {
+    width: 0;
+	height: 0;
+	position: absolute;
+	right: 31px;
+	top: 15px;
+	content: "\f078";
+	display: block;
+	z-index: 10;
+}*/
+
+.get-signup-plan {
+    margin: 0 0 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+.get-signup-plan input[type="radio"] {
+    margin: 0px 5px 0 2px;
+    border: none;
+    position: relative;
+    vertical-align: middle;
+    width: 16px;
+    background: none;
+    padding: 0;
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+    color: #000;
+    z-index: 1;
+transition: 0.5s ease;
+    box-sizing: border-box;
+}
+
+.get-signup-plan input[type="radio"]:before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border: 1px solid #666;
+    left: -2px;
+    top: -2px;
+    border-radius: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+
+.get-signup-plan input[type="radio"]:after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    left: 3px;
+    top: 3px;
+    border-radius: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+.get-signup-plan input[type="radio"]:checked:after {
+    background: #666;
+}
+.get-signup-plan input.zactive:after {
+    background: #666;
+}
+.get-signup-plan label {
+    margin: 0 20px 0 0;
+    font-size: 14px;
+    position: relative;
+    top: -1px;
+    cursor: pointer;
+}
+#signupplan div{text-align:left;margin:0}
+.manadatoryMessage{
+	color:red
+}
+#zs_end_email-error_store{
+    padding: 2px 5px;
+    border-radius: 0 0 5px 5px;
+    margin-top: -1px;
+    background-color: #F2DEDE;
+    border-color: #EED3D7;
+    color: #B94A48;
+    }
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], textarea, select {
+	box-sizing: unset !important;
+	text-indent: 0px !important;
+	margin-top: 0px !important;
+	height: auto !important;
+
+	}
+ .unchecked::before {
+ 	content : "" !important;
+ 	color: #333 !important;
+ 	font-size: 12px !important;
+ }
+ #signup-termservice, #signup-newsletter{
+ padding-top: 0px !important;
+ }
+ .serviceLogo{
+     max-width: 500px;
+     height: 150px;
+     content:url("https://github.com/jieWorkz/SignUp_Assets/blob/main/1a.png?raw=true");
+    }
