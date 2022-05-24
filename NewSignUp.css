@@ -285,7 +285,8 @@ form#signupform img.za-captcha{
     font: 20px "Open Sans",sans-serif !important;
     color: #666;
     display: block;
-    margin-top: -20px;
+    margin-top: -50px;
+    margin-bottom: 20px;
 }
 
 
